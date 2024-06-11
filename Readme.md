@@ -53,7 +53,7 @@ MCDE是一款基于PyQt5构建的分割主动脉夹层并建模的医学图像�
     >
     >360°全景视角：我们设计了CutPlaneInteractorStyle演示，为方便实现位于主动脉模型内观察模型各个部分。激活全景视角按钮：鼠标右键单击出现菜单1.选择焦点 2.选择相机位置（单击点必须捕捉到stl模型，否则单击无效）,鼠标左键按下拖动即可调节相机焦点，相机本身位置不变。 
 
-:baby_chick:**语言:**MCDE所有算法都是基于Python语言实现，利用PyQT5构建平台，深度学习网络是基于Pytorch库构建和训练的，最后利用PyInstaller打包
+:baby_chick:**语言:** MCDE所有算法都是基于Python语言实现，利用PyQT5构建平台，深度学习网络是基于Pytorch库构建和训练的，最后利用PyInstaller打包
 
 ```py
 pyinstaller -F -w MCDE.py
