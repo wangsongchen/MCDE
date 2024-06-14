@@ -110,5 +110,11 @@ pyinstaller -F -w MCDE.py
 * :nail_care:更新：添加三视图点击协同的功能
 * :bug:Bug：解决了三维坐标系无法正确隐藏的问题
 
+***
+
+## :memo:MCDE 2.4 ➡ 2.5
+
+* :nail_care:更新：添加飞机视角：我们重新设计了VtkInteractorStyleFlight样式。操作说明：激活飞机模式按钮：键盘上下左右控制移动，鼠标左键拖动控制方向，右键单击显示当前摄像机位置，同时在三视图以及VTK视图实时显示。
+* :bug:Bug：解决了部分bug
 
 
